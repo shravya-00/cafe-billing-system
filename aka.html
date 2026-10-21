@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAFE BY THE BAY</title>
+    <link rel="stylesheet" href="aka.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CAFE BY THE BAY</h1>
+      <p>Brewed with love, served with a view.</p>
+    </header>
+    <section class="welcome" id="home">
+      <h2>Welcome to Our Cafe</h2>
+      <p>Choose your favourites and place your order.</p>
+    </section>
+    <section id="menu">
+      <h2 style="text-align: center">Our Menu</h2>
+
+      <div class="menu">
+        <div class="item">
+          <img src="images/espresso.jpeg.jpeg" />
+          <h3>Espresso</h3>
+         <p>Rich and bold coffee</p>
+          <p class="price">₹80</p>
+          <button onclick="addToCart('Espresso', 80)">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="images/capaccineo.jpeg.jpeg" />
+          <h3>Cappuccino</h3>
+          <p>Creamy and smooth</p>
+          <p class="price">₹100</p>
+          <button onclick="addToCart('Cappuccino', 100)">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="images/latte.jpeg.jpeg" />
+          <h3>Latte</h3>
+          <p>Perfect blend of coffee and milk</p>
+          <p class="price">₹120</p>
+          <button onclick="addToCart('Latte', 120)">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="images/club sandwich.jpeg.jpeg" />
+          <h3>Club Sandwich</h3>
+          <p>Fresh and crispy sandwich</p>
+          <p class="price">₹220</p>
+          <button onclick="addToCart('Club Sandwich', 220)">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="images/wrap.jpeg.jpeg" />
+          <h3>Veggie Wrap</h3>
+          <p>Healthy and delicious wrap</p>
+          <p class="price">₹240</p>
+          <button onclick="addToCart('Veggie Wrap', 240)">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="images/pizza.jpeg.jpeg" />
+          <h3>Italian Pizza</h3>
+          <p>Delicious Italian pizza</p>
+          <p class="price">₹300</p>
+          <button onclick="addToCart('Italian Pizza', 300)">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+    <section class="cart" id="cart">
+      <h2>Your Shopping Cart</h2>
+
+      <ul id="cart-items">
+        <li>Your cart is empty.</li>
+      </ul>
+
+      <h3>Total: ₹<span id="total">0</span></h3>
+
+      <button onclick="placeOrder()">Place Order</button>
+    </section>
+     <footer>
+        <p>Cafe by the bay | Thank you for visiting!</p>
+    </footer>
+     <script src="aka.js"></script>
+  </body>
+</html>
