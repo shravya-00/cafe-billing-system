@@ -1,0 +1,96 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8ef;
+            color: #35251c;
+        }
+        header {
+            background-color: #633d2b;
+            color: white;
+            text-align: center;
+            padding: 22px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin-bottom: 0;
+        }
+         .welcome {
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        .welcome h2 {
+            margin-bottom: 8px;
+        }
+button {
+            background-color: #75452c;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+        button:hover {
+            background-color: #4d2d1d;
+        }
+        .item img{
+            width: 130px;
+            height: 130px;
+            min-width: 130px;
+            border-radius:50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+         .item {
+            background-color: white;
+            width: 210px;
+            padding: 18px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 7px #ddd;
+        }
+.price {
+            color: #75452c;
+            font-weight: bold;
+            font-size: 18px;
+        }
+         footer {
+            background-color: #633d2b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+         .cart {
+            background-color: #f0dfcf;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        .cart h2 {
+            margin-top: 0;
+        }
+
+        #cart-items {
+            padding-left: 20px;
+        }
+
+        .remove-btn {
+            padding: 4px 8px;
+            margin: 0 5px;
+            background-color: #9b4336;
+        }
